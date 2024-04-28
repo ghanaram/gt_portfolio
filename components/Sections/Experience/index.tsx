@@ -16,11 +16,11 @@ const DetailSection = () => (
       Places i’ve worked.
     </Heading>
     <Text variant="description">
-      Since 2016, had a privilege to work with several companies that enables me
+      Since 2023, had a privilege to work with NIC as a intern that enables me
       to hone my skills and talents. These companies will always have a special
-      place in my heart. Currently I am working with{' '}
-      <Link href="https://www2.deloitte.com/" target="_blank" rel="noreferrer">
-        Deloitte
+      place in my heart.
+      <Link href="https://www.nic.in/" target="_blank" rel="noreferrer">
+      National informatics centre chhattisgarh
       </Link>
       .
     </Text>

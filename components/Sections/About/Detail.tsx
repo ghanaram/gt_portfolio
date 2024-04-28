@@ -21,6 +21,7 @@ import {
   SiNextDotJs,
   SiNodeDotJs,
   SiDocker,
+  SiAngular
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -81,8 +82,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
-            C# - .NET.Core
+            <ListIcon as={SiAngular} color={emphasis} fontSize="2em" />
+            Angular
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
@@ -99,10 +100,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
         </List>
         <List spacing={3}>
-          <ListItem fontSize="small" display="flex" alignItems="center">
+          {/* <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiGraphql} color={emphasis} fontSize="2em" />
             Graphql
-          </ListItem>
+          </ListItem> */}
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             React
