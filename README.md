@@ -1,8 +1,6 @@
-# KL Lawingco's Personal Site
+# Ghanaram Personal Site
 
-Hey there! KL here. This is a v2 of my portfolio site, a complete rewrite from v1 which is shamefully a template I edited a bit back on 2018. I wanted to try out what I can do on my own in regards to UI and UX design so I reckon why not start with my porfolio.
-
-This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
+Hey there! Ghana here.  my portfolio site This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
 
 
 This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
@@ -12,12 +10,6 @@ Site is Currently deployed at <b>Netlify</b>'s Free tier .
 > Build Status 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4a91d5f6-a717-4b60-9f92-82c11745f2e8/deploy-status)](https://app.netlify.com/sites/kllawingco/deploys)
-
-
-## Demo
-
-<img src="./public/demo.gif" alt="DEMO" />
-
 
 ## Local Development
 
