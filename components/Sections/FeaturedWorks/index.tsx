@@ -31,7 +31,7 @@ const FeaturedWorksSection = () => {
         Some of my works.
       </Heading>
       <Text variant="description">
-        Check out some of the works I made at freelancing, company projects and
+        Check out some of the works I made during inernship , company projects and
         even case studies.
       </Text>
 
@@ -44,18 +44,17 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={1}
-            title="Tobira!"
-            src="/works/tobira/IphoneX-tobira.webp"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            title="Github reporistry listing"
+            src="/works/gitHub-reporistry-listing/repoPic.webp"
+            description="This Angular application allows users to search for GitHub repositories by username."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
+            ctaUrl="https://master--githubrepositorylisting.netlify.app/"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
 
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
             title="RSV"
@@ -90,7 +89,7 @@ const FeaturedWorksSection = () => {
             ctaUrl="https://www.layla-ec.com/"
             isMobile={isMobile}
           />
-        </MotionGridItem>
+        </MotionGridItem> */}
       </MotionGrid>
     </Stack>
   )

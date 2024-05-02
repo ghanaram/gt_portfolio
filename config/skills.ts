@@ -210,32 +210,7 @@ export const Skills: {
     //   icon: FaSourcetree,
     // },
   ],
-  mobile: [
-    {
-      name: 'React Native',
-      icon: SiReact,
-    },
-    {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
-    },
-  ],
-  games: [
-    {
-      name: 'Buildbox',
-      icon: SiUnity,
-    },
-  ],
-  desktop: [
-    {
-      name: 'Windows Forms, WPF',
-      icon: SiMicrosoft,
-    },
-    {
-      name: 'Electron',
-      icon: SiElectron,
-    },
-  ],
+  
 }
 
 export const splitSkills = (srcArray: Skill[]) => {

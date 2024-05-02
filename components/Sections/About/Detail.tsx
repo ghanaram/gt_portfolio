@@ -52,20 +52,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
-        currently working as a <b>Software Engineer</b> that focuses on{' '}
-        <b>architecture</b>, <b>APIs</b>,{' '}
-        <Tooltip
-          label="Ha!. Or more accurately TECH DEBT"
-          aria-label="Tech Debt?"
-          hasArrow
-        >
-          <Text as="span" variant="emphasis">
-            <b>nitty-gritty business logics</b>
-          </Text>
-        </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
-        <br /> <br />
+      I specialize in <b>full-stack web development</b> with expertise in <b>Angular, Node.js</b>. 
+      I excel in crafting responsive front-end interfaces, developing scalable APIs, and implementing DevOps practices. 
+      Passionate about problem-solving and client collaboration for innovative solutions.
+      <br /><br />
         Here are few technologies that are cup of my{' '}
         <Tooltip
           label="I only drink tea if I needed too!"
