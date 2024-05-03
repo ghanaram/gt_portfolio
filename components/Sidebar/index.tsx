@@ -115,7 +115,7 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br/>I am Web Developer that specializes at backend apis, front
+            <br/>I am Full-stack web development that specializes at backend apis, front
             end integration, recently found myself studying UX too.
           </MotionText>
           <MotionButton
