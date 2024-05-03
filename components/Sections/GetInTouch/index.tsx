@@ -67,7 +67,6 @@ const GetInTouch = () => {
       </Text>
 
       <Box
-        spacing={0.5}
         textAlign="center"
         fontFamily="monospace"
         paddingTop={{ base: 10, lg: 20, xl: 20 }}
@@ -77,7 +76,7 @@ const GetInTouch = () => {
           variant="description"
           textDecoration="none"
           rel="noreferrer"
-          href="https://github.com/ghanaram/kl_portfolio"
+          href="https://github.com/ghanaram/gt_portfolio"
           target="_blank"
           _focus={{ boxShadow: 'none' }}
         >
