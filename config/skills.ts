@@ -46,9 +46,7 @@ export type SkillCategory =
   | 'database'
   | 'ui frameworks'
   | 'productivity boost'
-  | 'mobile'
-  | 'games'
-  | 'desktop'
+
 
 export type Skill = {
   name: string
@@ -209,8 +207,7 @@ export const Skills: {
     //   name: 'SourceTree',
     //   icon: FaSourcetree,
     // },
-  ],
-  
+  ]
 }
 
 export const splitSkills = (srcArray: Skill[]) => {

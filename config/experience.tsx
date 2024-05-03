@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'NIC'
 
 export type CompanyDetail = {
   name: string
@@ -19,7 +19,7 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
+  NIC: {
     name: 'national informatics centre chhattisgarh',
     longName: 'Deloitte Consulthing Phils. Delivery Center',
     subDetail: '',
@@ -37,9 +37,10 @@ export const Experiences: {
         The application aims to streamline the job search and recruitment process, offering a centralized hub for job listings, candidate profile and application management.
       </>,
     ],
-  }
+  },
+ 
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
+  Experiences.NIC,
 ]
