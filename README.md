@@ -5,7 +5,7 @@ Hey there! Ghana here.  my portfolio site This is written in Typescript using [N
 
 This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
 
-Site is Currently deployed at <b>Netlify</b>'s Free tier .
+Site is Currently deployed at <b>Vercel</b>'s Free tier .
 
 > Build Status 
 
